@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+            TinhToanPhanSo p = new TinhToanPhanSo(Long.parseLong(sc.next()),Long.parseLong(sc.next()),Long.parseLong(sc.next()),Long.parseLong(sc.next()));            
+            System.out.println(p);
+        }
+    }
+}
